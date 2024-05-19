@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "samqdemocorp-mend/whitesource-config@main"
+  "$schema" : "https://raw.githubusercontent.com/mend-toolkit/mend-examples/kyal/add-json-schema/Repo-Integration/Schemas/ghc-integration-schema.json",
+  "settingsInheritedFrom": "samqdemocorp-mend/whitesource-config@main",
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf+I7HxthK5OUgVXirEc/49+kdrVcDfaYEjf3+TIzSRt6SMo9L7klSOkptOwbg53dfGtayUoWV9y/VKVPe8v1V5pdO8X9Ay2GXNP6bNpVPU/x2+M9SAVZK1MgAqCvMVPFHg/trbj8QvsE8hrb44RI6nsOmQk3vvCqG54L00wFz1MMBdgTT5CUXxlQGt7gSgQn9FOReidrmmo2WdujlTZdLFxcW7GmGawAfZW36al+fk2h7V53kDa2KjBzNbmzDLYqQSvOY6yUyeYIowB3uBcWGCVp1xRM7+HLcmTGjPPo6e9TTL5IXZK+tjXOQxdq4i5v+rW+UK60Cld9Aq1vJx89glF9KAAbvyOjZaYEJA+XIbJbMFHnTLiQD1O+IuJxb8scquc6tGxl32oQfSfaumATFdj3KRDvb0H3fpWbzvC59ZhFX6EeX/QSakNvApjqhHAoGWlK43Jz8qcSBQsZycyJryA5gsVQ9MugegLHY/hPwQ+lD3fHQU67aYVm1B5isWxClc4TE"
+      }
+    }
+  ]
 }
